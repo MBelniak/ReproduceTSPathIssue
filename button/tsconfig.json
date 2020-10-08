@@ -8,6 +8,10 @@
       "esnext",
       "es6"
     ],
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
     "sourceMap": true,
     "allowJs": true,
     "skipLibCheck": true,

@@ -14,19 +14,17 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "outDir": "dist",
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "noImplicitAny": false,
-    "baseUrl": ".",
-    "paths": {
-      "button": ["../button/src/Button.tsx"]
-    }
+    "noImplicitAny": false
   },
-  "include": [
-    "src", "../button/src/Button.tsx"
+  "include": ["src"],
+  "references": [
+    {"path": "../button"}
   ],
   "exclude": ["node", "node_modules", "dist"]
 }
